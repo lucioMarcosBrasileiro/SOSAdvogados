@@ -1,0 +1,22 @@
+
+12/09/2017 09:00
+Marcos
+
+Baixar o gitHub para compartilhamento do projeto, documentação do projeto.
+Ensina comandos do github, muito bom!
+https://www.youtube.com/watch?v=aEGkYK6AVRg&t=1113s
+
+git status //para teste do github
+git config user.name ""
+git config user.email ""
+git init//dentro da pasta do projeto, criando rep.local
+	//para ver o que iremos gerenciar..fica em vermelho
+git add . //adicionar todos os arquivos 
+git status //fica em verde e falta realizar commint para repositorio local
+
+*****sincronizando remotamente o repositorio********
+ssh-keygen //chave pub localizado dentro user/.ssh/id_rsa.pub
+no navegador dentro do repositorio vai configurações
+
+$ git remote set-url origin git@github.com:lucioMarcosBrasileiro/SOSAdvogados.git
+$ git push -u master de origem
