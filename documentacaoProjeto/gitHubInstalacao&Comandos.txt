@@ -13,6 +13,7 @@ git init//dentro da pasta do projeto, criando rep.local
 	//para ver o que iremos gerenciar..fica em vermelho
 git add . //adicionar todos os arquivos 
 git status //fica em verde e falta realizar commint para repositorio local
+git commit -m "comentários das alterações"
 
 *****sincronizando remotamente o repositorio********
 ssh-keygen //chave pub localizado dentro user/.ssh/id_rsa.pub
