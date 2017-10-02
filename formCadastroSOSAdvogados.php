@@ -26,18 +26,28 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="painelDadosPessoais">
                         <h2>Dados Pessoais</h2>
+                        <p>
+   <div class="panel panel-default">
+     <div class="panel-body">
+       Informações pessoais 
+       <strong id="dica1" onmouseout="escondePopover('dica1')" onmouseover="exibePopover('dica1')" data-container="body" data-toggle="popover" data-placement="top" data-content="Neste formulário você deve preencher seu nome, cpf e telefone com números válidos.">
+         (Dicas)
+       </strong>
+     </div>
+   </div>
+ </p>
                         <form>
                             <div class="form-group col-md-6">
-                                <label>Nome:</label>
-                                <input type="text" class="form-control" id="nome">
+                                <label>Nome:</label>                                
+                                <input type="text" class="form-control" id="inputNome" data-toggle="tooltip" data-placement="top" title="Preencha um nome válido">
                             </div>    
                             <div class="form-group col-md-6">
                                 <label>Cpf:</label>
-                                <input type="text" class="form-control" id="cpf">                                              
+                                <input type="text" class="form-control" id="inputCpf" data-toggle="tooltip" data-placement="top" title="Preencha um cpf válido">                                              
                            </div>
                             <div class="form-group col-md-6">
                                 <label>Telefone:</label>
-                                <input type="text" class="form-control" id="Telefone">                           
+                                <input type="text" class="form-control" id="inputTelefone" data-toggle="tooltip" data-placement="top" title="Preencha um número de telefone válido">                           
                             </div>                             
                         </form>                         
                         <button onclick='alterarEtapasFormulario("Senha")' class="btn btn-info">Seguinte</button>
@@ -53,7 +63,7 @@
                             </div>    
                             <div class="form-group col-md-6">
                                 <label>Confirmar Senha:</label>
-                                <input type="text" class="form-control" id="confirmarSenha">                                              
+                                <input type="text" class="form-control" id="inputConfirmarSenha">                                              
                            </div>                                                       
                         </form>                        
                         <button onclick='alterarEtapasFormulario("DadosDefensorLegal")' class="btn btn-info">Seguinte</button>
@@ -65,10 +75,10 @@
                          <form>
                             <div class="form-group col-md-6">
                                 <label>Número da OAB:</label>
-                                <input type="text" class="form-control" id="numeroAOB">
+                                <input type="text" class="form-control" id="inputNumeroAOB">
                             </div>                                                       
                         </form>                        
-                        <button class="btn btn-success">Salvar</button>
+                        <button onclick="validaInputFormulario()" class="btn btn-success">Salvar</button>
                     </div>                  
                 </div>
 
@@ -78,9 +88,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    <script src="javaScript/validacaoFormulario.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="javaScript/validacaoFormulario.js"></script>  
   </body>
 </html>

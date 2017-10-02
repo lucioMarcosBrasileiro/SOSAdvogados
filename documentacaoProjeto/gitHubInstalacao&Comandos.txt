@@ -21,3 +21,5 @@ no navegador dentro do repositorio vai configurações
 
 $ git remote set-url origin git@github.com:lucioMarcosBrasileiro/SOSAdvogados.git
 $ git push -u master de origem
+$ git push origin master
+
