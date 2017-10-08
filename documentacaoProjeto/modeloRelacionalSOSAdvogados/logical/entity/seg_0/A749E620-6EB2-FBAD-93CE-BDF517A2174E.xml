@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A749E620-6EB2-FBAD-93CE-BDF517A2174E" name="Contrato_de_Serviço">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-07 23:49:01 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>
