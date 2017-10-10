@@ -24,7 +24,7 @@ and open the template in the editor.
                             <div class="input-group-addon"><!--divisoria de figura e input-->
                                 <span class="glyphicon glyphicon-user"></span><!--figura-->
                             </div>
-                            <input type="text" name="inputCpf" class="form-control" placeholder="Cpf"><!--input-->
+                            <input type="text" name="inputCpf" class="form-control" placeholder="Cpf" data-toggle="tooltip" data-placement="top" title="Preencha um nome válido"><!--input-->
                         </div>
                     </div>  
                     
@@ -39,10 +39,10 @@ and open the template in the editor.
                     </div>  
                     
                     <div class="form-group">
-                        <input type="submit" value="Entrar" class="btn btn-success form-control">
+                        <input type="submit" value="Entrar" class="btn btn-success form-control" onclick="validaInputFormulario()>
                         </div> 
                     <div class="form-group">
-                         <a href="conta.php">Criar nova conta!</a>
+                        <a href="formCadastroSOSAdvogados.php">Criar nova conta!</a>
                         
                         </div> 
                            
@@ -55,5 +55,6 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
+         <script src="javaScript/validacaoFormulario.js"></script>  
     </body>
 </html>
