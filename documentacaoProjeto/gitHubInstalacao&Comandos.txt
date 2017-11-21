@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=aEGkYK6AVRg&t=1113s
 git status //para teste do github
 git config --global user.name ""
 git config --global user.email ""
-$ git clone git://github.com/schacon/grit.git // o endereço git é do repositorio que vai clonar
+$ git clone  // o endereço git é do repositorio que vai clonar
 git init//dentro da pasta do projeto, criando rep.local
 	//para ver o que iremos gerenciar..fica em vermelho
 git add . //adicionar todos os arquivos 
