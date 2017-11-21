@@ -42,9 +42,17 @@ and open the template in the editor.
                         <input type="submit" value="Entrar" class="btn btn-success form-control" onclick="validaInputFormulario()>
                         </div> 
                     <div class="form-group">
-                        <a href="formCadastroSOSAdvogados.php">Criar nova conta!</a>
-                        
-                        </div> 
+                        <a href="formCadastroSOSAdvogados.php">Criar nova conta!</a><br>
+                        <button class="btn btn-primary" data-target="#modal-basico" data-toggle="modal">Esqueci senha!</button>                                         
+                    </div> 
+                    <div class="modal" id="modal-basico">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title">titulo do modal</h3>
+                                </div>
+                        </div>                        
+                    </div>
                            
                                         
                      
