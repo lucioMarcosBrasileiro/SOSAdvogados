@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloRelacionalSOSAdvogados" id="99794C42-FFC7-2684-9334-70B7CBB31BE2" version="3.5">
-<createdBy>LúcioMarcos</createdBy>
-<createdTime>2017-10-07 23:40:12 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>99794C42-FFC7-2684-9334-70B7CBB31BE2</designId>
-</OSDM_Design>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBD9670D-0CE1-6886-1A12-0A22F37477FA" name="historio_chamado">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:58:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_chamado" id="A29729DD-5693-20F6-8CAD-D996B7540E58">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:59:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="data_chamado" id="299B3C49-04EA-21FA-20AA-4B9B86D68432">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:59:34 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="motivo_chamado" id="CBC6D40F-B14F-0BB7-1DE7-CDB1DD66EADA">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:59:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="endereço_delegacia" id="F292B84B-9F4C-5FBA-18DB-76D8F2ABC8DD">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 02:00:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="situação_atual_contrato_serviço" id="51694B66-0391-2B5F-22E5-A148D1350EA4">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 02:00:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="nome_defensor_legal" id="D2058AB0-6314-45FB-1A59-F5297DE3DB4C">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 02:00:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="situacao_atual_chamado" id="65BDFDE7-532E-1CCA-5245-AA28E5E78AA5">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 02:00:56 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="nome_cliente_chamado" id="D5CEDB96-DCF1-56AC-09D7-84BB42BFBAD6">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 02:09:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="nome_cliente_delito" id="CF8C489E-4755-7F48-1D43-0AFA1DAE8613">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 02:10:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="cpf_cliente_chamado" id="3412C1A9-2891-DD48-F378-719C68B758C6">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 02:10:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="cpf_cliente_delito" id="DDDA118B-0303-BB6F-0191-E5EAFF247CF8">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 02:10:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

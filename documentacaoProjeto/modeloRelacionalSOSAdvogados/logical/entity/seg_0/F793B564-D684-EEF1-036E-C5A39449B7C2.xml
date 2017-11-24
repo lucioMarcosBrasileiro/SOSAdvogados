@@ -15,4 +15,66 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf_defensor" id="AAC142C0-2AC5-DB5B-24D2-1D3219FF7B0D">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:18:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="nome_defensor" id="1D48F080-A9AF-8275-666E-2E905A62F3CA">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:17:49 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="telefone_defensor" id="DEDCB514-BA61-300B-FAE8-A8D290D7EB5D">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:18:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="numero_OAB" id="C3EF41E2-C380-4FAC-4E48-CC6014BFE5F6">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:19:05 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0BAF242-7812-E264-ADA1-966C3653033E" name="Defensor_Publico PK">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:19:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AAC142C0-2AC5-DB5B-24D2-1D3219FF7B0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -15,4 +15,60 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf_cliente" id="E9BB90E5-1220-4B2A-4B0D-3A1CCD92AC66">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:07:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+</Attribute>
+<Attribute name="nome_cliente" id="F68D17D9-6A99-4B2D-1096-39F795ECC362">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:05:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+</Attribute>
+<Attribute name="telefone_cliente" id="D8699CBD-35A9-3737-6F04-55F534EB9772">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:16:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="02A4CEAC-EEB8-8941-42B8-AE01CEE28A32" name="Cliente PK">
+<createdBy>LúcioMarcos</createdBy>
+<createdTime>2017-10-08 01:14:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>modeloRelacionalSOSAdvogados</ownerDesignName>
+<engineerTo>
+<item key="07521942-A823-6FCD-5AC5-F060648592F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9BB90E5-1220-4B2A-4B0D-3A1CCD92AC66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

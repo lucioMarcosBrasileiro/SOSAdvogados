@@ -3,5 +3,7 @@
    <object objectType="Entity" objectID="58F2CCDC-7C34-9024-E1AD-3D6D53533E46" name="Cliente" seqName="seg_0"/>
    <object objectType="Entity" objectID="88DA63A2-A019-0DFB-EE66-5AF3D34BAC23" name="Chamado" seqName="seg_0"/>
    <object objectType="Entity" objectID="A749E620-6EB2-FBAD-93CE-BDF517A2174E" name="Contrato_de_Serviço" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B33E823F-99C9-9A28-5E07-E2345142E98E" name="Relatorio" seqName="seg_0"/>
    <object objectType="Entity" objectID="F793B564-D684-EEF1-036E-C5A39449B7C2" name="Defensor_Publico" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FBD9670D-0CE1-6886-1A12-0A22F37477FA" name="historio_chamado" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
